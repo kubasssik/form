@@ -1,0 +1,137 @@
+.registr__block {
+    margin: 0 auto;
+    display: grid;
+    gap: 4rem;  
+}
+
+.form__registr,
+.registr__help {
+    width: 21rem;
+    margin: 3rem auto;
+}
+
+.registr {
+    display: grid;
+    gap: 2rem;
+}
+
+.registr__label {
+    position: relative;
+    display: grid;
+}
+
+.registr__star {
+    position: absolute;
+    top: -30%;
+    font-size: 1.5rem;
+    color: rgba(255, 255, 255, 0);
+}
+
+.registr__placeholder {
+    opacity: 0;
+    position: absolute;
+    margin: auto;
+    right: 2%;
+    top: -15%;
+    color: white;
+    font-size: 1rem;
+    background: var(--blue-gradient);
+    box-shadow: 0 1rem 2rem 0 var(--blue);
+    padding: .3rem .5rem;
+    border-radius: 2rem;
+    text-shadow: 0 0 .2rem black;
+    z-index: 3;
+}
+
+.registr__placeholder_active {
+    opacity: 1;
+}
+
+.registr__input {
+    font-size: 1.5rem;
+    padding: 1.2rem .5rem;
+    color: grey;
+    position: relative;
+    z-index: 1;
+}
+
+.eye {
+    display: block;
+    width: 2rem;
+    height: 2rem;
+    position: absolute;
+    background: url(../../img/svg/closedEye.svg) center/cover no-repeat;
+    left: 80%;
+    top: 30%;
+    cursor: pointer;
+    z-index: 4;
+}
+
+.registr__json {
+    position: absolute;
+    left: 5%;
+    top: 0%;
+    color: white;
+    font-size: .8rem;
+    box-shadow: 0 1rem 2rem 0 var(--red);
+    background: var(--red-gradient);
+    padding: .3rem .5rem;
+    border-radius: 2rem;
+    margin: auto;
+    text-shadow: 0 0 .2rem black;
+    z-index: 0;
+    transition: .3s;
+}
+
+.registr__json_active {
+    top: 105%;
+}
+
+.registr__similar {
+    display: grid;
+    gap: 1rem;
+}
+
+.similar__text {
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.registr__btn{
+    padding: 1rem 2rem;
+margin: .8rem 1rem;
+font-size: 2rem;
+}
+.similar {
+    width: 50%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-self: center;
+    gap: 1rem;
+}
+
+.similar__way {
+    width: 3rem;
+    height: 3rem;
+    cursor: pointer;
+    justify-self: center;
+}
+
+.similar__way:nth-child(1) {
+    background: url(../../img/png/gmail.png) center/cover no-repeat;
+}
+
+.similar__way:nth-child(2) {
+    background: url(../../img/png/vk.png) center/cover no-repeat;
+}
+
+.similar__way:nth-child(3) {
+    background: url(../../img/png/ok.png) center/cover no-repeat;
+}
+
+.registr__help {
+    margin: 0 auto;
+    font-size: .8rem;
+    text-align: center;
+    display: grid;
+} 

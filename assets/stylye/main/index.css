@@ -1,0 +1,112 @@
+.header,
+.footer {
+    background: radial-gradient( #a0d501 30%, #5fae00,#429700);
+    background: radial-gradient( #22ee7a 30%, #1bc062,#127c40);
+    background: radial-gradient( #e0ff2e 30%, #a3bb1e,#6c7c12);
+    background: radial-gradient( #e0ff2e 30%, #a3bb1e,#6c7c12);
+    background: radial-gradient( #6ab1d7 30%, #33d9de,#002878);
+    background: radial-gradient( #f716ff 30%, #be0fc4,#740078);
+}
+
+.header__scheme {
+    margin: 0 auto;
+    width: 90%;
+    padding: 3% 0 1% 0;
+    display: grid;
+    gap: 1rem;
+}
+.menu__style{
+    position: relative;
+    border: .15rem solid rgba(255, 255, 255, 0.5);
+    border-radius: .5rem;
+    box-shadow: .3rem .3rem .5rem 0 rgba(0, 0, 0, 0.5);
+    background: linear-gradient(#fafafa98, #eaeaea98, #dddddd98);
+    z-index: 2;
+}
+.up__ul {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    padding: .8rem;
+}
+
+.up__li {
+    cursor: pointer;
+    font-size: 2.5rem;
+    border-right: .15rem solid rgba(255, 255, 255, 0.5);
+    text-align: center;
+}
+
+.up__li:hover {
+    color: #a0d501;
+}
+.up__li:active{
+    color: #429700;
+}
+
+.up__li:nth-child(6) {
+    border: none;
+}
+
+.header__left {
+    position: relative;
+    padding: 1rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.left__left {
+  
+ 
+}
+.name__site{
+    color: white;
+    font-weight: bold;
+    font-size: 3rem;
+    text-shadow: .3rem .3rem .3rem rgba(0, 0, 0, 0.5);
+   
+   
+}
+
+.left__ul {
+    grid-column: 2/3;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.left__li {
+    justify-self: end;
+    font-size: 2rem;
+}
+.left__li::before{
+    content: '';
+    width: 1rem;
+    height: 1rem;
+    
+}
+.burger__menu {
+   display: grid;
+   grid-template-columns: 1fr 4fr;
+}
+.burger {
+    margin: auto;
+    padding: .4rem;
+    display: grid;
+    gap: .5rem;
+    cursor: pointer;
+}
+.burger__span {
+    
+    width: 2rem;
+    height: 0.2rem;
+    background-color: black;
+}
+.burger__ul {
+    display: grid;
+    grid-auto-flow: column;
+    justify-self: center;
+    align-self: center;
+    font-size: 1.5rem;
+    gap: .5rem;
+}
+.burger__li {
+    
+}

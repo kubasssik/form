@@ -1,0 +1,40 @@
+
+.user__block {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    padding: 2rem;
+    gap: 1rem;
+ 
+}
+.user__search{
+    font-size: 1.5rem;
+    padding: 1.2rem 2rem;
+    color: grey;
+    position: relative;
+    z-index: 1;
+}
+
+.user {
+    display: grid;
+    gap: .3rem;
+}
+.user__photo {
+    border: .1rem solid var(--blue);
+    border-radius: 50%;
+    overflow: hidden;
+}
+.user__name {
+    font-size: 1.5rem;
+    text-align: center;
+    cursor: pointer;
+}
+.user__name:hover {
+  text-decoration: underline;
+}
+.user__delete {
+    cursor: pointer;
+    font-weight: 700;
+    text-align: center;
+    color: red;
+}

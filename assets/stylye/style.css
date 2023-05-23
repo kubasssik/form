@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&family=Kurale&family=Lobster&family=Marck+Script&family=Neucha&family=Sofia+Sans+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,1;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+*,
+*:before,
+*:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+:focus,
+:active {
+    outline: none;
+}
+
+a:focus,
+a:active {
+    outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+    display: block;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    font-size: 14px;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+input,
+button,
+textarea {
+    font-family: inherit;
+}
+
+input::-ms-clear {
+    display: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+button::-moz-focus-inner {
+    padding: 0;
+    border: 0;
+}
+
+a,
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+ul li {
+    list-style: none;
+}
+
+img {
+    vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: inherit;
+    font-weight: 400;
+}
+
+.h1 {
+    
+  
+}
+
+.h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 1rem;
+
+}
+
+.h3 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: gray;
+}
+
+.h4 {
+    font-size: 1.2rem;
+    color: white;
+}
+
+.h5 {
+    font-size: 1.2rem;
+    margin: .3rem;
+    font-weight: bold;
+}
+
+.h6 {
+    font-size: 1.2rem;
+    justify-self: center;
+    margin-bottom: .8rem;
+}
+
+:root {
+    --blue-gradient: linear-gradient(45deg, #6ab1d7 0%, #33d9de 50%, #002878 100%);
+    --blue: rgba(0, 40, 120, .35);
+
+    --red-gradient: linear-gradient(45deg, #d76a6a 0%, #de3333 50%, #780000 100%);
+    --red: rgba(120, 0, 0, 0.35);
+
+    --green-gradient: linear-gradient(45deg, #6ad7a0 0%, #33de8e 50%, #00783c 100%);
+    --green: rgba(0, 120, 74, 0.35);
+}
+
+body {
+    background: rgb(255, 255, 255);
+    font-family: 'Sofia Sans Condensed', sans-serif;
+}
+
+.wrapper {
+    width: 100%;
+}
+
+.input__style {
+    border-radius: .3rem;
+    border: .1rem solid #33d9de;
+    box-shadow: 0 0 1rem 0rem #6ab1d7 inset;
+}
+
+.btn__style {
+    display: inline-block;
+
+    border-radius: 2rem;
+    font-weight: 300;
+    color: white;
+    background: var(--blue-gradient);
+    box-shadow: 0 1rem 2rem 0 var(--blue);
+    transition: .5s;
+    text-shadow: 0 0 .2rem black;
+}
+
+.btn__style:hover {
+    box-shadow: 0 0 0 0 rgba(0, 40, 120, 0);
+    background-position: 0 0;
+}
+
+.display__none {
+    display: none;
+}
+
